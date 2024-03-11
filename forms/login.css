@@ -1,0 +1,58 @@
+:root {
+    --main-color: #331D2C;
+    --text-color: #3F2E3E;
+    --button-color: #A78295;
+    --last-color: #EFE1D1;
+}
+
+body {
+    background-color: var(--main-color);
+
+}
+
+.form {
+    margin: 150px auto;
+    background-color: var(--main-color);
+    width: 50%;
+}
+
+form {
+    background-color: #EFE1D1;
+    padding: 25px;
+}
+
+form legend {
+    text-align: center;
+
+}
+
+form legend i {
+    font-size: 50px;
+    color: var(--text-color);
+}
+
+form h1 {
+    text-align: center;
+    font-size: 48pt;
+    color: var(--text-color);
+}
+
+form label {
+    text-align: left;
+    color: var(--text-color);
+    font-weight: bolder;
+    font-size: 18pt;
+}
+
+form input {
+    width: 80%;
+    height: 30px;
+
+}
+
+form button {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    font-size: 30pt;
+    font-weight: 700;
+}

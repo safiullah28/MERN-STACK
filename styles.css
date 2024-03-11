@@ -1,0 +1,28 @@
+* {
+    background-color: brown;
+}
+
+.safi {
+    color: blue;
+    background-color: aqua;
+    font-family: fantasy;
+    font-size: 72pt;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+p {
+    text-decoration: solid;
+    text-transform: uppercase;
+    line-height: 30px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    text-align: justify;
+    background-image: url(258777397_1012261519725438_5661981446053997555_n.jpg);
+    background-repeat:repeat;
+    /* background-size: cover; */
+}
+
+p::first-letter{
+    font-size: 30px;
+}
